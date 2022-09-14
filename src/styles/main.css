@@ -10,5 +10,6 @@
 @import 'components/agent.css';
 @import 'components/product.css';
 @import 'components/profile.css';
+@import 'components/balance.css';
 
 @import 'tailwindcss/utilities';

@@ -1,24 +1,21 @@
 import React from 'react';
+import Balance from './balance/Balance';
 
 const Profile = () => {
   return (
     <div className="profile">
       <div className="detail-profile">
         <div class="avatar">
-          <div class="w-24 rounded-full ring ring-primary ring-offset-2 ring-offset-base-100">
-            <img src="https://placeimg.com/192/192/people" />
+          <div class="avatar-profile">
+            <img src="https://placeimg.com/192/192/people" alt="User profile" />
           </div>
         </div>
         <div className="profile-list">
-          <h1>Budi Budiman</h1>
-          <p>Owner at PT Suka Maju</p>
-        </div>
-        <div className="balance">
-          <h2>Total Balance</h2>
-          <h1>Rp. 1.580.000.000</h1>
-          <button>Top Up</button>
+          <h1 className="profile-title">Budi Budiman</h1>
+          <p className="profile-text">Owner at PT Suka Maju</p>
         </div>
       </div>
+      <Balance />
     </div>
   );
 };

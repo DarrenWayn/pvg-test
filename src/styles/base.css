@@ -1,4 +1,4 @@
 /* layout  */
 .App {
-  @apply grid grid-cols-8;
+  @apply h-screen grid-cols-8 lg:grid;
 }

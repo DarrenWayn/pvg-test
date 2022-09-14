@@ -1,3 +1,27 @@
 .profile {
-  @apply bg-slate-600 p-10;
+  @apply bg-gray-100 py-1;
+}
+
+.detail-profile {
+  @apply mt-8 flex gap-x-5 px-2;
+}
+
+.avatar {
+  @apply w-5;
+}
+
+.avatar-profile {
+  @apply w-7;
+}
+
+.profile-title {
+  @apply text-sm;
+}
+
+.profile-text {
+  @apply text-xs text-gray-500;
+}
+
+img {
+  @apply rounded-full;
 }

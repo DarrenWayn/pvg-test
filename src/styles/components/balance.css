@@ -1,0 +1,15 @@
+.balance {
+  @apply mx-2 my-6 rounded-md bg-white;
+}
+
+.balance-detail {
+  @apply content-center px-4 py-3;
+}
+
+.balance-title {
+  @apply text-xs text-gray-700;
+}
+
+.balance-number {
+  @apply my-2  text-xs font-semibold text-black;
+}
