@@ -1,5 +1,5 @@
 /* layout  */
-.layout {
+.App {
   @apply grid grid-cols-8;
 }
 
