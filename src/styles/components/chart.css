@@ -1,0 +1,3 @@
+.main-chart {
+  @apply col-span-2 bg-slate-700 p-10;
+}

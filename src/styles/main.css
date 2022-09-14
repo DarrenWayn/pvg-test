@@ -3,5 +3,12 @@
 
 @import 'tailwindcss/components';
 @import 'components/button.css';
+@import 'components/navbar.css';
+@import 'components/dashboard.css';
+@import 'components/card.css';
+@import 'components/chart.css';
+@import 'components/agent.css';
+@import 'components/product.css';
+@import 'components/profile.css';
 
 @import 'tailwindcss/utilities';

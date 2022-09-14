@@ -1,0 +1,28 @@
+.main-product {
+  @apply col-span-3 bg-white p-2;
+}
+
+/* Products */
+.product {
+  @apply grid grid-cols-5 gap-2 bg-blue-300 p-2;
+}
+
+.maxim {
+  @apply bg-white p-10;
+}
+
+.telkomsel {
+  @apply bg-slate-200 p-10;
+}
+
+.three {
+  @apply bg-slate-300 p-10;
+}
+
+.ovo {
+  @apply bg-slate-400 p-10;
+}
+
+.pln {
+  @apply bg-slate-700 p-10;
+}

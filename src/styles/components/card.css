@@ -1,0 +1,15 @@
+.main-card {
+  @apply col-span-3 grid grid-cols-3 gap-3;
+}
+
+.profit {
+  @apply bg-white p-10;
+}
+
+.sales {
+  @apply bg-slate-600 p-10;
+}
+
+.transactions {
+  @apply bg-slate-700 p-10;
+}
